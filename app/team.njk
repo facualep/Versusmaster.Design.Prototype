@@ -1,0 +1,238 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+  {% include "layouts/header-team.njk" %}
+  <div class="team-cover">
+    <img class="team-profile-img profile-img" src="https://atmanco.com/wp-content/uploads/2015/11/2.png"/>
+  </div>
+  <div class="main-wrapper">
+    <div class="team-main">
+      <h3 class="team-name">Drink team</h3>
+      <p class="team-description">
+        Show time! 😎
+      </p>
+      <div class="global-stats">
+        <div class="main-rate">
+          <div class="empty"></div>
+          <div class="value stars">
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star-half"></span>
+          </div>
+          <a class="see-all link"><span class="icon icon-big fa fa-angle-right"></span></a>
+        </div>
+        <div class="team-data">
+          <ul class="team-data-list base-list">
+            <li class="composition">
+              {# <span class="key">Composición</span> #}
+              <span class="value"><span class="icon icon-big fa fa-mars"></span>Male</span>
+            </li>
+            <li class="promedium-age">
+              {# <span class="key">Edad Promedio</span> #}
+              <span class="value"><span class="fa fa-birthday-cake icon icon-big"></span>26</span>
+            </li>
+            <li class="location">
+              {# <span class="key">Región</span> #}
+              <span class="value"><a class="link" href="https://www.google.com.uy/maps/place/Brazo+Oriental,+Montevideo,+Montevideo+Department/@-34.8627724,-56.1784279,15z/data=!3m1!4b1!4m5!3m4!1s0x959f800a7e53581f:0xf8a1f3137a9c920f!8m2!3d-34.8650295!4d-56.1784106?hl=en"><span class="icon icon-big fa fa-map-marker"></span></a>Brazo oriental</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="games-stats section">
+      <div class="section-title">
+        Enfrentamientos
+      </div>
+      <ul class="stats-list base-list">
+        {# <li class="played">
+          <div class="title">
+            PJ
+          </div>
+          <div class="data">
+            14
+          </div>
+        </li> #}
+        <li class="won">
+          <div class="title">
+            PG
+          </div><!--
+          --><div class="data">
+            6
+          </div>
+        </li>
+        <li class="lost">
+          <div class="title">
+            PP
+          </div><!--
+          --><div class="data">
+            3
+          </div>
+        </li>
+        <li class="tie">
+          <div class="title">
+            PE
+          </div><!--
+          --><div class="data">
+            5
+          </div>
+        </li>
+      </ul>
+      <div class="see-all link">
+        <a class=""><span>Ver todos los partidos</span><span class="icon icon-big fa fa-angle-right"></span></a>
+      </div>
+    </div>
+    {# <div class="teat-rate">
+      <h4>Valoraciones</h4>
+      <ul class="base-list">
+        <li class="rate">
+          <span class="key">vs <span class="rival-name">Olas locas</span></span>
+          <div class="value stars">
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star-half"></span>
+          </div>
+        </li>
+        <li class="rate">
+          <span class="key">vs <span class="rival-name">Nacionalófilos</span></span>
+          <div class="value stars">
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+            <span class="icon fa fa-star"></span>
+          </div>
+        </li>
+      </ul>
+    </div> #}
+    <div class="team-members section">
+      <div class="section-title">
+        Integrantes
+      </div>
+      <div class="member-add link">
+        <a href="#">
+          <span class="icon icon-big fa fa-user-plus"></span>
+          <span class="text">Agregar integrante</span>
+        </a>
+      </div>
+      <ul class="base-list members">
+        <li class="member">
+          <div class="container">
+            <img class="profile-img" src="http://keenthemes.com/preview/metronic/theme/assets/pages/media/profile/profile_user.jpg"/><!--
+            --><div class="right">
+              <div class="member-data">
+                <div class="member-name">
+                  Ciro Gonzalez
+                </div>
+                <div class="member-rank">
+                  Administrador
+                </div>
+              </div>
+              <div class="member-actions">
+                <span class="fa icon down fa-arrow-down"></span>
+                <span class="fa icon fa-trash"></span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="member">
+          <div class="container">
+            <img class="profile-img" src="http://www.mulierchile.com/profile-pictures/profile-pictures-004.jpg"/><!--
+            --><div class="right">
+              <div class="member-data">
+                <div class="member-name">
+                  Javier Martinez
+                </div>
+                <div class="member-rank">
+                  Miembro
+                </div>
+              </div>
+              <div class="member-actions">
+                <span class="fa icon down fa-arrow-down"></span>
+                <span class="fa icon fa-trash"></span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="member">
+          <div class="container">
+            <img class="profile-img" src="http://static2.businessinsider.com/image/5899ffcf6e09a897008b5c04-1200/.jpg"/><!--
+            --><div class="right">
+              <div class="member-data">
+                <div class="member-name">
+                  Diego Marquez
+                </div>
+                <div class="member-rank">
+                  Miembro
+                </div>
+              </div>
+              <div class="member-actions">
+                <span class="fa icon down fa-arrow-down"></span>
+                <span class="fa icon trash fa-trash"></span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="member">
+          <div class="container">
+            <img class="profile-img" src="https://cap.stanford.edu/profiles/viewImage?profileId=74422&type=square&ts=1509496450787"/><!--
+            --><div class="right">
+              <div class="member-data">
+                <div class="member-name">
+                  Ahmed Arandián
+                </div>
+                <div class="member-rank">
+                  Miembro
+                </div>
+              </div>
+              <div class="member-actions">
+                <span class="fa icon down fa-arrow-down"></span>
+                <span class="fa icon trash fa-trash"></span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="member">
+          <div class="container">
+            <img class="profile-img" src="http://www.maheshbabufans.com/wp-content/uploads/2013/05/profile-new-Copy-350x350.jpg"/><!--
+            --><div class="right">
+              <div class="member-data">
+                <div class="member-name">
+                  Mathías Solís
+                </div>
+                <div class="member-rank">
+                  Miembro
+                </div>
+              </div>
+              <div class="member-actions">
+                <span class="fa icon down fa-arrow-down"></span>
+                <span class="fa icon trash fa-trash"></span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="social section">
+      <div class="section-title">
+        Social
+      </div>
+      <ul class="base-list social-list link">
+        <li>
+          <span class="icon icon-big fa fa-facebook"></span>
+        </li>
+        <li>
+          <span class="icon icon-big fa fa-twitter"></span>
+        </li>
+        <li>
+          <span class="icon icon-big fa fa-instagram"></span>
+        </li>
+        <li>
+          <span class="icon icon-big fa fa-globe"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}

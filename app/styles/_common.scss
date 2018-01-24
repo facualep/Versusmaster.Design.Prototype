@@ -1,0 +1,74 @@
+.link {
+  color: $primary!important;
+  a:hover, a:focus, a:visited {
+    color: $primary!important;
+  }
+}
+.white-link {
+  color: $font-white!important;
+  a:hover, a:focus, a:visited {
+    color: $font-white!important;
+  }
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.icon-big {
+  font-size: 24px;
+}
+
+.icon-huge {
+  font-size: 36px;
+}
+
+.stars {
+  .icon {
+    font-size: 30px;
+    color: $stars;
+    padding: 0 3px;
+  }
+}
+
+.page-name {
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.main-wrapper {
+  padding: 15px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 1px solid $gray-separator;
+}
+
+.section {
+  padding: 15px 0;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+
+//default styles reset
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+  letter-spacing: .3px;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0;
+}

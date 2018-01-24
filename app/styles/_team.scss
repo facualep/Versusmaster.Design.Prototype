@@ -1,0 +1,194 @@
+.team-main {
+  text-align: center;
+}
+
+.team-cover {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-image: url('https://ugc.futurelearn.com/uploads/images/90/2d/902d0c48-095e-4919-81aa-4b8f4d3f198c.jpg');
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.team-profile-img {
+  background-color: white;
+  width: 30%;
+  margin: auto;
+  display: block;
+  border-width: 2px;
+  border-color: $font-white;
+  position: relative;
+  top: 75px;
+}
+
+.team-main {
+  padding-top: 20px;
+}
+
+.team-name {
+  margin-bottom: 0;
+}
+
+.main-rate {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stats-list {
+  .data {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: $font-white;
+    text-align: center;
+    border-radius: 3px;
+  }
+
+  .title {
+    width: 40px;
+    display: inline-block;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+.games-stats {
+  text-align: left;
+  .title {
+    font-size: 12px;
+  }
+
+  .won .data {
+    background-color: $victory;
+    width: calc(100% - 40px);
+  }
+
+  .lost .data {
+    background-color: $defeat;
+    width: calc(50% - 40px);
+  }
+
+  .tie .data {
+    background-color: $tie;
+    width: calc(83% - 40px);
+  }
+
+  .see-all {
+    a {
+      display: flex;
+      align-items: center;
+    }
+
+    .icon {
+      padding-left: 10px;
+    }
+  }
+}
+
+.team-data {
+  .team-data-list {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+      padding: 15px;
+      border-radius: 6px;
+      // background-color: $primary;
+      // color: $font-white;
+
+      .icon {
+        padding-right: 5px;
+      }
+    }
+  }
+}
+
+
+.members {
+
+}
+
+.member-add {
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  .text {
+    line-height: 16px;
+  }
+
+  .icon {
+    width: 45px;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.member {
+  border-top: 1px solid $gray-separator;
+  padding: 10px 0;
+
+  &:last-child {
+    border-bottom: 1px solid $gray-separator;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .profile-img {
+    // display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 0;
+  }
+
+  .right {
+    padding-left: 15px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-width: 25%;
+    align-items: center;
+    // width: calc(100% - 40px);
+    .icon {
+      padding-left: 10px;
+    }
+
+    .down {
+      color: $defeat;
+    }
+  }
+
+  .member-rank {
+    font-size: $font-size-subcaption;
+    color: $font-soft;
+    text-transform: uppercase;
+    padding-top: 3px;
+  }
+}
+
+.social-list {
+  padding: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
